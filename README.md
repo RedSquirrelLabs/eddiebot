@@ -19,8 +19,8 @@ Installing in a Vanilla Ubuntu 12.04 image on VMWare
 
 Dependencies:
 1. kd
-      1.rosdep install kdl
-      2. rosmake kdl
+ 1.rosdep install kdl
+ 2. rosmake kdl
 2. app_manager
       1. git clone https://github.com/pr2/app_manager.git
       2. sudo easy_install app_manager
@@ -32,6 +32,8 @@ Dependencies:
 
 5. Complete eddibot install
       rosdep install eddiebot
+6. sudo chmod 666 /dev/ttyUSB0
+
 
 ## API Reference
 
