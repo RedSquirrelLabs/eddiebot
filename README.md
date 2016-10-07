@@ -19,17 +19,16 @@ Installing in a Vanilla Ubuntu 12.04 image on VMWare
 
 Dependencies:
 1. kd
-      rosdep install kdl
-      rosmake kdl
+      1.rosdep install kdl
+      2. rosmake kdl
 2. app_manager
-      git clone https://github.com/pr2/app_manager.git
-      make
-      rosmake
+      1. git clone https://github.com/pr2/app_manager.git
+      2. sudo easy_install app_manager
 3. joy
-      sudo apt-get install ros-groovy-joystick-drivers
+      1. sudo apt-get install ros-groovy-joystick-drivers
 4. openni_camera: http://wiki.ros.org/openni_camera
-      sudo apt-get install ros-groovy-openni-camera
-      sudo apt-get install ros-groovy-openni-launch  
+      1. sudo apt-get install ros-groovy-openni-camera
+      2. sudo apt-get install ros-groovy-openni-launch  
 
 5. Complete eddibot install
       rosdep install eddiebot
